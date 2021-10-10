@@ -1,0 +1,12 @@
+@page {
+    width: 70mm;
+    height: 36mm;
+}
+.label {
+    padding: 6.0mm;
+    font-family: "LiberationSerifRegular", Verdana;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+    font-size:12px;
+}

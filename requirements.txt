@@ -1,0 +1,5 @@
+wheel
+weasyprint==52.5
+blabel
+click
+pandas
