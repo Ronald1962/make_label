@@ -11,7 +11,7 @@ adjusted this to print address labels instead.
 
 Note that the default address template here uses dutch variable names:
 naam = name
-adres = address (street + housenumber)
+straat = address (street + housenumber)
 postcode = zip
 plaats = city
 
@@ -41,5 +41,7 @@ Installation:
 - Run the pdfnup command to create labels. In this case 3 in a row, 8 rows on a
   page (Like Avery 3474):
 
-  `$ pdfnup --no-landscape --nup 3x8 output.pdf`
+  `$ pdfjam --suffix nup --no-landscape --nup 3x8 output.pdf`
 
+Note: the pdfjam command on Debian/Mxlinux is part of the texlive-extra-utils package.
+      Apart from that the texlive-latex-recommended package is needed.
