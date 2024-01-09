@@ -1,9 +1,10 @@
+/* 37.125 is exact, however the 0.125 seems to be ignored. */
 @page {
     width: 70mm;
-    height: 36mm;
+    height: 37.125mm;
 }
 .label {
-    padding: 6.0mm;
+    padding: 7.0mm;
     font-family: "LiberationSerifRegular", Verdana;
     font-weight: bold;
     vertical-align: middle;
